@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 50%;
+    top: 300px;
+
+    transform: translate(-50%);
+
+    height: 50px;
+}
+
+.key {
+    cursor: pointer;
+
+    margin: 10px;
+
+    width: 70px;
+    height: 70px;
+
+    font-size: 30px;
+    text-align: center;
+
+    border: 2px solid white;
+
+    transition: all .07s ease
+}
+
+.playing {
+    transform: scale(1.1);
+    border: 3px solid red;
+}
+
+.sound {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: #a2d0c4
+}
